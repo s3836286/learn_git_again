@@ -1,0 +1,14 @@
+echo "This is third.txt" > third.txt
+git add third.txt
+git commit -m "adding third.txt"
+git log
+echo "This is fourth.txt" > fourth.txt
+git status
+git add fourth.txt
+git status
+git commit -m "adding fourth.txt"
+git status
+rm third.txt
+git add third.txt
+git commit -m "removing third.txt"
+git log
